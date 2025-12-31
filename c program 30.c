@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    printf("Enter a number (N): ");
+    scanf("%d", &N);
+    for (int i = N; i >= 1; i--) {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    return 0;
+}
