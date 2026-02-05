@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    float n = 2.5;
+    printf("%f\n",n);
+
+    float m = 6.75;
+    printf("%f\n",m);
+}
