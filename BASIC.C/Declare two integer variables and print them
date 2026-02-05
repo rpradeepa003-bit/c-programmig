@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int variable1;
+    int variable2;
+
+    variable1 = 5;
+    variable2 = 15;
+    printf("%d %d\n", variable1, variable2);
+
+    variable1 = 20;
+    variable2 = 40;
+    printf("%d %d\n", variable1, variable2);
+
+    return 0;
+}
