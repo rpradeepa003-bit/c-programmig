@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    
+    int number1 = 10;
+    printf("Output: %d\n", number1);
+
+  
+    int number2 = 50;
+    printf(" Output: %d\n", number2);
+
+    return 0;
+}
