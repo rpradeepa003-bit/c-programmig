@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char Char;
+
+    Char = 'X'; 
+  
+    printf("Output: %c\n", Char); 
+
+    Char = 'B';
+
+    printf("Output: %c\n", Char); 
+
+    return 0;
+}
