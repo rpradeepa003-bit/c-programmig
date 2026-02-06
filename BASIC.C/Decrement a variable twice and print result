@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void double_decrement_example(int num) {
+    printf("Input: %d\n", num);
+    num--;
+    num--;
+    printf("Output: %d\n", num);
+}
+
+int main() {
+    printf("Test Case 1:\n");
+    double_decrement_example(6); 
+    
+    printf("\nTest Case 2:\n");
+    double_decrement_example(2); 
+    
+    printf("\nTest Case 3:\n");
+    double_decrement_example(10); 
+    
+    return 0;
+}
