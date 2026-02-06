@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int Variable; 
+    
+    Variable = 10;
+    printf("Output: %d\n", Variable); 
+
+    Variable = 60; 
+    printf("Output: %d\n", Variable);
+
+}
