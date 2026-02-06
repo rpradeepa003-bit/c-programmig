@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+   
+    int num1 = 5;
+    printf("Test Case 1 Input: %d Output: %d\n", num1, ++num1);
+
+    int num2 = 10;
+    printf("Test Case 2 Input: %d Output: %d\n", num2, ++num2);
+
+    int num3 = 15;
+    printf("Test Case 3 Input: %d Output: %d\n", num3, ++num3);
+
+    return 0;
+}
