@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int compare_less_than(int a, int b) {
+
+    return (a < b) 
+}
+
+int main() {
+    // Test Case 1: 5 < 10 (True)
+    printf("Test Case 1 Output: %d\n", compare_less_than(5, 10));
+
+    // Test Case 2: 9 < 2 (False)
+    printf("Test Case 2 Output: %d\n", compare_less_than(9, 2));
+
+    // Test Case 3: 4 < 4 (False)
+    printf("Test Case 3 Output: %d\n", compare_less_than(4, 4));
+
+    return 0;
+}
