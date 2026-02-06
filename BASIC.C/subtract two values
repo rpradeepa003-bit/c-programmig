@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int sub,a=10,b=5;
+    sub= a-b;
+    printf("sum=%d\n",sub);
+
+    int total,n=25,m=15;
+    sub= n-m;
+    printf("sum=%d\n",sub);
+}
