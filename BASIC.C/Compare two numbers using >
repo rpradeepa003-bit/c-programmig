@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    num1 = 10;
+    num2 = 5;
+    printf("Test Case 1 Input: %d %d | Output: %d\n", num1, num2, num1 > num2);
+
+    num1 = 3;
+    num2 = 8;
+    printf("Test Case 2 Input: %d %d | Output: %d\n", num1, num2, num1 > num2);
+
+    num1 = 7;
+    num2 = 7;
+    printf("Test Case 3 Input: %d %d | Output: %d\n", num1, num2, num1 > num2);
+
+    return 0;
+}
