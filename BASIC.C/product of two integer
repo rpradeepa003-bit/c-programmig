@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int a = 4;
+    int b = 5;
+    int product = a * b;
+    printf(" Output: %d\n", product);
+
+    int n = 10;
+    int m = 2;
+    int total = n * m;
+    printf(" Output: %d\n", product);
