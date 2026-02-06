@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int a = 5;
+    int b = 5;
+    int sum = a + b;
+    printf(" Output: %d\n", sum);
+
+    int n = 3;
+    int m = 7;
+    int total = n + m;
+    printf(" Output: %d\n", sum);
+
+}
