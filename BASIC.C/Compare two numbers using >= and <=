@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int num1=5, num2=5;
+
+    int result_ge = (num1 >= num2);
+    int result_le = (num1 <= num2);
+
+    printf("%d %d\n", result_ge, result_le);
+
+    return 0;
+}
