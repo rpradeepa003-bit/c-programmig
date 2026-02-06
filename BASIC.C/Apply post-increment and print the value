@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void test_post_increment(int num) {
+ 
+    int original_num = num;
+
+    printf("Input: %d\n", original_num);
+    printf("Output: %d\n\n", num++);
+
+}
+
+int main() {
+ 
+    test_post_increment(5); 
+
+    test_post_increment(9);
+
+    test_post_increment(0);
+
+    return 0;
+}
+
