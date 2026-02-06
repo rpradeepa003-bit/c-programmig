@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int quotient,a=20,b=5;
+    quotient= a/b;
+    printf("sum=%d\n",quotient);
+
+    int total,n=25,m=5;
+    quotient= n/m;
+    printf("sum=%d\n",quotient);
+}
