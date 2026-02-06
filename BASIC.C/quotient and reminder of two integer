@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+  
+    int dividend,divisor,quotient, remainder;
+
+    dividend=9,divisor=2;
+
+    quotient = dividend / divisor;
+
+    remainder = dividend % divisor;
+
+    printf("Quotient=%d Remainder=%d\n", quotient, remainder);
+
+    dividend=10,divisor=3;
+        
+    quotient = dividend / divisor;
+
+    remainder = dividend % divisor;
+
+    printf("Quotient=%d Remainder=%d\n", quotient, remainder);
+ 
+    dividend=20,divisor=4;
+        
+    quotient = dividend / divisor;
+
+    remainder = dividend % divisor;
+
+    printf("Quotient=%d Remainder=%d\n", quotient, remainder);
+}
