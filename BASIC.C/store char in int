@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char inputChar;
+    int asciiValue;
+
+    printf("Enter a character: ");
+    scanf("%c", &inputChar);
+
+    asciiValue = inputChar;
+    printf("Output: %d\n", asciiValue);
+
+    return 0;
+}
