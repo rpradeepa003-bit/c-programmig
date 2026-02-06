@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int sum;
+    int a=3,b=2,c=5;
+    sum = a+b+c;
+    printf(" the sum  %d,%d,%d of:%d\n", a,b,c, sum);
+
+    int m=4,n=1,o=5;
+    sum = m+n+o;
+    printf(" the sum  %d,%d,%d of:%d\n", m,n,o, sum);
+
+}
