@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void pre_decrement_example(int num) {
+    printf("Input: %d\n", num);
+    int result = --num; 
+    printf("Output: %d\n", result);
+}
+
+int main() {
+    printf("Test Case 1:\n");
+    pre_decrement_example(10); 
+    
+    printf("\nTest Case 2:\n");
+    pre_decrement_example(1); 
+    
+    printf("\nTest Case 3:\n");
+    pre_decrement_example(5);  
+    
+    return 0;
+}
