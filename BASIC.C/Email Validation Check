@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int character=8;
+
+    if( character>5){
+        printf("valid email\n");
+    }
+
+    else{
+        printf("invalid email\n");
+    }
+    return 0;
+}
