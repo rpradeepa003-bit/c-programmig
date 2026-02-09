@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int attendence =80 ;
+
+    if( attendence>=75){
+        printf("Eligible for Exam\n");
+    }
+
+    else{
+        printf("not eligible\n");
+    }
+    return 0;
+}
