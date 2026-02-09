@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int age =10 ;
+
+    if( age<12){
+        printf("discount ticket\n");
+    }
+
+    else{
+        printf("regular ticket\n");
+    }
+    return 0;
+}
