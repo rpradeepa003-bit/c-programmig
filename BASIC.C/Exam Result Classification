@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int mark=35;
+
+    if( mark<=35){
+        printf("fail\n");
+    }
+
+    else if(mark>35){
+        printf("pass\n");
+    }
+
+    else{
+        printf("distinct\n");
+    }
+    return 0;
+}
