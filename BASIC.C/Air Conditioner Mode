@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int temp=18;
+
+    if( temp=18){
+        printf("heating mood\n");
+    }
+
+    else if(temp=25){
+        printf("normal mode\n");
+    }
+
+    else{
+        printf("cooling mood\n");
+    }
+    return 0;
+}
