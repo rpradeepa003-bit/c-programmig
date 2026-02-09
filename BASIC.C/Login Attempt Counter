@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int loginattempt =4 ;
+
+    if( loginattempt>3){
+        printf("account locked\n");
+    }
+
+    else{
+        printf("login allowed\n");
+    }
+    return 0;
+}
