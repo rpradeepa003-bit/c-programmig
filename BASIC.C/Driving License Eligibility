@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int age =25 ;
+
+    if( age >18){
+        printf("Eligible\n");
+    }
+
+    else{
+        printf("not eligible\n");
+    }
+    return 0;
+}
