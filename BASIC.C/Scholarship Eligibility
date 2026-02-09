@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int mark=90,income=200000;
+
+    if( mark>80,income<300000){
+        printf("eligible\n");
+    }
+
+    else{
+        printf("not eligible\n");
+    }
+    return 0;
+}
