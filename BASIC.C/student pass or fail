@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int  mark =65 ;
+
+    if(mark >=40){
+        printf("pass\n");
+    }
+
+    else{
+        printf("fail\n");
+    }
+    return 0;
+}
