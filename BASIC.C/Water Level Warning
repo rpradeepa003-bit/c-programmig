@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int waterlevel = 95;
+
+    if( waterlevel > 90){
+        printf("overflow warning\n");
+    }
+
+    else{
+        printf("safe leval\n");
+    }
+    return 0;
+}
