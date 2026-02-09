@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int usertypenum=1;
+
+    if( usertypenum=1){
+        printf("admin\n");
+    }
+
+    else if(usertypenum=2){
+        printf("user\n");
+    }
+
+    else{
+        printf("guest\n");
+    }
+    return 0;
+}
