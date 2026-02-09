@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int ticketstatus=5;
+
+    if( ticketstatus>1){
+        printf("confirmed\n");
+    }
+
+    else{
+        printf("waiting list\n");
+    }
+    return 0;
+}
