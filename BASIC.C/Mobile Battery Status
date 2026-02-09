@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int batterystatus =50;
+
+    if( batterystatus<=20){
+        printf("low battery\n");
+    }
+
+    else{
+        printf("battery ok\n");
+    }
+    return 0;
+}
