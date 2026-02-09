@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int balance =500 ;
+
+    if( balance<1000){
+        printf("low balance\n");
+    }
+
+    else{
+        printf("sufficient balance\n");
+    }
+    return 0;
+}
