@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int number = 5 ;
+ 
+
+    if(number>0){
+        printf("positive number\n");
+    }
+
+    else if(number<0) {
+        printf("negative number\n");
+    }
+
+    else{
+        ("zero number\n");
+    }
+
+    return 0;
+}
