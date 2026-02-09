@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    float data =2.5 ;
+
+    if(data>2.0){
+        printf("data limited exceeded\n");
+    }
+
+    else{
+        printf("data within limit\n");
+    }
+    return 0;
+}
