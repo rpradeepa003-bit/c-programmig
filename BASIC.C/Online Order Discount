@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int amount = 1500;
+
+    if(amount > 1000){
+        printf("discount applied\n");
+    }
+    else{
+        printf("no discount\n");
+    }
+
+    int amount2= 999;
+
+    if(amount2 > 1000){
+        printf("discount applied\n");
+    }
+    else{
+        printf("no discount\n");
+    }
+    return 0;
+}
