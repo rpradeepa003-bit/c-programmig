@@ -7,17 +7,7 @@ int main() {
     scanf("%d", &N);
 
     for(int i = 1; i <= N; i++) {
-        if(i == 1) {
-            printf("%d ", a);
-        }
-        else if(i == 2) {
-            printf("%d ", b);
-        }
-        else {
-            c = a + b; 
-            printf("%d ", c);
-            a = b;
-            b = c;
+      printf("%d', i)
         }
     }
 
