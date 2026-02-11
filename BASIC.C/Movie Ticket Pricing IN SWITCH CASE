@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int seatType, showTime;
+    int price = 0;
+
+    scanf("%d", &seatType);
+    scanf("%d", &showTime);
+
+    switch (seatType) {
+        case 1:
+            price = 150; // Silver
+            break;
+        case 2:
+            price = 250; // Gold
+            break;
+        default:
+            price = 0;
+    }
+
+    if (showTime >= 18) {
+        price += 50; // Night show extra
+    }
+
+    printf("Ticket Price ₹%d", price);
+    return 0;
+}
