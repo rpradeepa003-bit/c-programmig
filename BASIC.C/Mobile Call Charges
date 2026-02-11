@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int callType, minutes;
+    int charge = 0;
+
+    scanf("%d", &callType);
+    scanf("%d", &minutes);
+
+    switch (callType) {
+        case 1:
+            charge = minutes * 1;  // Local
+            break;
+        case 2:
+            charge = minutes * 3;  // STD
+            break;
+        case 3:
+            charge = minutes * 10; // ISD
+            break;
+    }
+
+    printf("Call Charge ₹%d", charge);
+    return 0;
+}
