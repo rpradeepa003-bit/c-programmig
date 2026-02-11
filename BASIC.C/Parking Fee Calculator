@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int vehicleType, hours;
+    int rate;
+
+    scanf("%d", &vehicleType);
+    scanf("%d", &hours);
+
+    switch (vehicleType) {
+        case 1:
+            rate = 10;   // Bike
+            break;
+        case 2:
+            rate = 20;   // Car
+            break;
+        default:
+            rate = 20;   // Invalid type
+    }
+
+    printf("Parking Fee %d", rate * hours);
+    return 0;
+}
