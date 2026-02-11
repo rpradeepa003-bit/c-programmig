@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int customerType, billAmount;
+    int payAmount;
+
+    scanf("%d", &customerType);
+    scanf("%d", &billAmount);
+
+    switch (customerType) {
+        case 1: // Regular
+            payAmount = billAmount - (billAmount * 5 / 100);
+            break;
+
+        case 2: // Premium
+            payAmount = billAmount - (billAmount * 15 / 100);
+            break;
+
+        default:
+            payAmount = billAmount;
+    }
+
+    printf("Pay ₹%d", payAmount);
+    return 0;
+}
