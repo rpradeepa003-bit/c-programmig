@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int M, N;
+    int sum = 0;
+    int i;
+
+    printf("Enter two integers M and N : ");
+    scanf("%d %d", &M, &N);
+
+    if (M < 1 || M > N || N > 1000) {
+
+     return 1; 
+    }
+
+    for (i = 1; i <= N; i++) {
+        if (i % M == 0) {
+            sum += i;
+        }
+    }
+    printf("The sum of all multiples of %d up to %d is: %d\n", M, N, sum);
+
+    return 0;
+}
