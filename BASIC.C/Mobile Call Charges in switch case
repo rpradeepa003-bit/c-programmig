@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int category;
+
+    scanf("%d", &category);
+
+    switch (category) {
+        case 1:
+            printf("Exam Fee ₹1200");
+            break;
+        case 2:
+            printf("Exam Fee ₹800");
+            break;
+        case 3:
+            printf("Exam Fee ₹500");
+            break;
+        default:
+            printf("Invalid Category");
+    }
+    return 0;
+}
