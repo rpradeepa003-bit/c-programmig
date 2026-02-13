@@ -8,12 +8,12 @@ int main() {
     scanf("%d", &extraWeight);
 
     switch (flightClass) {
-        case 1: // Economy Class
+        case 1: 
             charge = extraWeight * 300;
             printf("Extra Baggage Charge %d", charge);
             break;
 
-        case 2: // Business Class
+        case 2:
             if (extraWeight <= 3) {
                 printf("Free");
             } else {
