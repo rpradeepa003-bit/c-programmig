@@ -4,7 +4,7 @@ int main() {
     int marks;
 
 
-    if (scanf("%d", &marks) != 1) {
+    if (scanf("%d", &marks){
  
         return 1;
     }
