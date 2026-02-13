@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &creditScore);
 
     switch (loanType) {
-        case 1: // Home Loan
+        case 1: 
             if (creditScore >= 700)
                 printf("Approved");
             else if (creditScore >= 650)
@@ -16,7 +16,7 @@ int main() {
                 printf("Rejected");
             break;
 
-        case 2: // Personal Loan
+        case 2:
             if (creditScore >= 700)
                 printf("Approved");
             else
