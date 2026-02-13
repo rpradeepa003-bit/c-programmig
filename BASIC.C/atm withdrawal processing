@@ -19,9 +19,7 @@ int main() {
         case 2: 
             if (withdrawAmount > 5000) {
                 printf("Limit Exceeded\n");
-            } else if (balance < withdrawAmount) {
-                printf("Insufficient Funds\n");
-            } else {
+            else {
                 printf("Transaction Successfull\n");
             }
             break;
