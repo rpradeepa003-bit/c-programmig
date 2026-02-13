@@ -9,13 +9,13 @@ int main() {
 
     switch (callType) {
         case 1:
-            charge = minutes * 1;  // Local
+            charge = minutes * 1;  
             break;
         case 2:
-            charge = minutes * 3;  // STD
+            charge = minutes * 3;  
             break;
         case 3:
-            charge = minutes * 10; // ISD
+            charge = minutes * 10;
             break;
     }
 
