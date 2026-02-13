@@ -8,11 +8,11 @@ int main() {
     scanf("%d", &billAmount);
 
     switch (customerType) {
-        case 1: // Regular
+        case 1: 
             payAmount = billAmount - (billAmount * 5 / 100);
             break;
 
-        case 2: // Premium
+        case 2: 
             payAmount = billAmount - (billAmount * 15 / 100);
             break;
 
