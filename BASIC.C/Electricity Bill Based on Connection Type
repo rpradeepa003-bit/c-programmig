@@ -15,7 +15,7 @@ int main() {
             if (units <= 100) {
                 billAmount = units * 3.0;
             } else {
-                billAmount = (100 * 3.0) + ((units - 100) * 5.0);
+                billAmount = (units* 5.0);
             }
             
             subsidy = 80.0;
@@ -28,7 +28,7 @@ int main() {
             if (units <= 100) {
                 billAmount = units * 7.0;
             } else {
-                billAmount = (100 * 7.0) + ((units - 100) * 10.0);
+                billAmount = (units  * 10.0);
             }
           
             break;
