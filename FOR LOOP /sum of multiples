@@ -12,7 +12,6 @@ int main() {
 
      return 1; 
     }
-
     for (i = 1; i <= N; i++) {
         if (i % M == 0) {
             sum += i;
