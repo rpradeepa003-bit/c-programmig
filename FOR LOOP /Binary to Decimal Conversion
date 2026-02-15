@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int binary,decimal=0,remainder,base;
+
+    printf ("enter the binary number:");
+    scanf ("%d", &binary);
+
+    for (; binary != 0;binary = binary/10){
+        remainder = binary % 10;
+        decimal = decimal + remainder * base;
+        base = base * 2;
+    }
+     
+     printf ("decimal number = %d", decimal);
+    return 0;
+}
