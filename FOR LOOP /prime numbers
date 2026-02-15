@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    int N,i,j,count,isprime;
+
+    printf("enter a number:"); 
+    scanf ("%d", &N);
+
+    for (i=2;i<=N;i++){
+        isprime =1;
+
+        for (j=2;j<=i;j++){
+            if (i%j == 0){
+                isprime =0
+                break;
+            }
+        }
+        if (isprime == 1){
+            count ++;
+        }
+    }
+    printf ("number of prime number from 1 to %d= %d",n , count);
+    return 0
+}
