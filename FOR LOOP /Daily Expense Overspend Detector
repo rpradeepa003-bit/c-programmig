@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int n , expance,overspend =0,total =0;
+
+    printf ("enter number of days:");
+    scanf ("%d", &n);
+
+    printf ("enter daily expence:");
+
+    for (int i=1;i<=n;i++){
+        scanf ("%d", &expance);
+        total = total + expance;
+        
+    if(expance>1000){
+        overspend++;
+        }
+    }
+    printf("total expance=%d\n",total);
+    printf("overspend days=%d\n",overspend);
+
+    return 0;
+}
