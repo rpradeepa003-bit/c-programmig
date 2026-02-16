@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,salary, absentDays, finalSalary, deduction =0;
+
+    printf("Enter Salary: ");
+    scanf("%d", &salary);
+
+    printf("Enter Number of Absent Days: ");
+    scanf("%d", &absentDays);
+
+    for(i = 1; i <= absentDays; i++)
+    {
+        deduction = deduction + 100;
+    }
+
+    finalSalary = salary - deduction;
+
+    printf("Final Salary: %d", finalSalary);
+
+    return 0;
+}
