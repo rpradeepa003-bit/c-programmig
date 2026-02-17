@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int N,fare,total=0;
+    printf("enter the number of passenger :");
+    scanf("%d", &N);
+
+    for(int i=1;i<= N;i++){
+        printf("enter fare for passenger %d :", i);
+        scanf("%d", &fare);
+        total = total + fare;
+    }    
+    printf("total collection = %d\n", total);
+    return 0;
+}
