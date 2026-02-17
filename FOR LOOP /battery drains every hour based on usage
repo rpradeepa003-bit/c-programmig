@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int battery, hours, drain;
+
+    scanf("%d", &battery);
+    scanf("%d", &hours);
+
+    for(int i = 1; i <= hours; i++) {
+        scanf("%d", &drain);
+        battery = battery - drain;
+    }
+
+    if(battery < 0) {
+        battery = 0;
+    }
+
+    printf("Remaining Battery: %d", battery);
+
+    return 0;
+}
