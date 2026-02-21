@@ -10,6 +10,10 @@ int main()
     scanf("%d", &number);
 
     temp = number;
+    for (; temp !=0;temp=temp/10){
+
+    digit = temp% 10;
+    factorial = 1;
 
      for (int i = 1; i <= digit; i++)
         {
