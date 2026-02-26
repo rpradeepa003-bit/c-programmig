@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    int i = 0;
+    int order;
+    int success = 0, cancel = 0;
+
+    printf("Enter number of orders: ");
+    scanf("%d", &N);
+
+    while(i < N) {
+        scanf("%d", &order);
+
+        if(order == 1) {
+            success++;
+        }
+        else if(order == 0) {
+            cancel++;
+        }
+
+        i++;
+    }
+
+    printf("Successful: %d\n", success);
+    printf("Cancelled: %d\n", cancel);
+
+    if(cancel > success) {
+        printf("Status: Risk\n");
+    } else {
+        printf("Status: Safe\n");
+    }
+
+    return 0;
