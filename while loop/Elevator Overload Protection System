@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int maxWeight, N, weight;
+    int i = 0;
+    int totalWeight = 0, peopleEntered = 0, overload = 0;
+
+    scanf("%d", &maxWeight);
+    scanf("%d", &N);
+
+    while(i < N) {
+        scanf("%d", &weight);
+
+        if(totalWeight + weight <= maxWeight) {
+            totalWeight += weight;
+            peopleEntered++;
+        } else {
+            overload = 1;
+        }
+
+        i++;
+    }
+
+    printf("People Entered: %d\n", peopleEntered);
+
+    if(overload == 1)
+        printf("Overload Status: Yes\n");
+    else
+        printf("Overload Status: No\n");
+
+    return 0;
+}
