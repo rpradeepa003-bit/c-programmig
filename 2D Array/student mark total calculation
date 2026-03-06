@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int R, C;
+
+    scanf("%d", &R);
+
+    scanf("%d", &C);
+
+    int marks[R][C];
+    int total;
+
+    for(int i = 0; i < R; i++) {
+        printf("Enter marks for Student %d:\n", i + 1);
+        for(int j = 0; j < C; j++) {
+            scanf("%d", &marks[i][j]);
+        }
+    }
+
+    for(int i = 0; i < R; i++) {
+        total = 0;
+        for(int j = 0; j < C; j++) {
+            total += marks[i][j];
+        }
+        printf("Total marks of Student %d = %d\n", i + 1, total);
+    }
+
+    return 0;
+}
